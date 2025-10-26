@@ -1,0 +1,9 @@
+{
+  "_hash": "ghZ1U6tJUjmcLUHNaoGB3rqzvmFLZ0RTzWbxAg33gZA",
+  "project": {
+    "rootDir": "/home/shanto/Workstation/Shanto/frontend-monorepo-ready/apps/nuxt-app"
+  },
+  "versions": {
+    "nuxt": "3.19.3"
+  }
+}

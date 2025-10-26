@@ -1,0 +1,1 @@
+export { default } from "file:///home/shanto/Workstation/Shanto/frontend-monorepo-ready/node_modules/.pnpm/@nuxt+vite-builder@3.19.3_lightningcss@1.30.2_magicast@0.3.5_rollup@4.52.5_terser@5.44._ab263beda69a7f66d456492096eb9053/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

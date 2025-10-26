@@ -1,0 +1,17 @@
+{
+  "name": "frontend-monorepo-ready",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev:nuxt": "pnpm --filter nuxt-app dev",
+    "dev:vue": "pnpm --filter vue-app dev",
+    "dev:all": "pnpm -w -r -p --parallel run dev",
+    "build:all": "pnpm -w -r run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1"
+  }
+}
