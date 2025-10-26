@@ -17,9 +17,9 @@
       // "@/ui/*": [
       //   "libs/ui/*"
       // ]
-      "@/*": ["/libs/ui/src/*"],
-      "@/components/*": ["/libs/ui/src/components/*"],
-      "@/lib/utils": ["/libs/ui/src/lib/utils"]
+      "@/*": ["libs/ui/src/*"],
+      "@/components/*": ["libs/ui/components/*"],
+      "@/lib/utils": ["libs/ui/lib/utils.ts"]
     }
   }
 }

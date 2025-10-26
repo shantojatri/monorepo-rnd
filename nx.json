@@ -14,5 +14,14 @@
         ]
       }
     }
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["{projectRoot}/dist"]
+    },
+    "serve": {
+      "cache": false
+    }
   }
 }

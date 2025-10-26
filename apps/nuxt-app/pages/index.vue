@@ -9,8 +9,36 @@
    <h1 class="text-3xl font-bold underline text-red-500">
     Hello world!
   </h1>
+  <div></div>
+  <div></div>
+  <Dialog>
+    <DialogTrigger>
+      Edit Profile
+    </DialogTrigger>
+    <DialogContent>
+      <DialogHeader>
+        <DialogTitle>Edit profile</DialogTitle>
+        <DialogDescription>
+          Make changes to your profile here. Click save when you're done.
+        </DialogDescription>
+      </DialogHeader>
+
+      <DialogFooter>
+        Save changes
+      </DialogFooter>
+    </DialogContent>
+  </Dialog>
 </template>
 
 <script setup>
 // import { UiButton, Modal } from '@workspace/ui'
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '../../../libs/ui/src/components/ui/dialog'
 </script>

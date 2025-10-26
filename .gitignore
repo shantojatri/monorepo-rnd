@@ -1,0 +1,5 @@
+node_modules
+libs/ui/node_modules
+apps/nuxt-app/ui/node_modules
+apps/vue-app/ui/node_modules
+.env

@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     resolve: {
       alias: {
         '@workspace/ui': path.resolve(__dirname, '../../libs/ui/src'),
-        '@': path.resolve(__dirname, '../../libs/ui')
+        '@': path.resolve(__dirname, '../..')
       }
     },
     plugins: [tailwindcss()],
