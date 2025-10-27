@@ -50,7 +50,7 @@
         "../../../node_modules/.pnpm/nuxt@3.19.3_@parcel+watcher@2.5.1_@types+node@24.9.1_@vue+compiler-sfc@3.5.22_db0@0.3.4_314c05d23c65ff215935ffbd4f182d57/node_modules/nuxt"
       ],
       "vite/client": [
-        "../../../node_modules/.pnpm/vite@7.1.12_@types+node@24.9.1_jiti@2.6.1_lightningcss@1.30.2_terser@5.44.0_yaml@2.8.1/node_modules/vite/client"
+        "../../../node_modules/.pnpm/vite@7.1.12_@types+node@24.9.1_jiti@2.6.1_lightningcss@1.30.2_stylus@0.57.0_terser@5.44.0_yaml@2.8.1/node_modules/vite/client"
       ],
       "~": [
         ".."
@@ -95,10 +95,10 @@
         "../public/*"
       ],
       "@workspace/ui": [
-        "../../../libs/ui/src"
+        "../../../libs/ui/src/components/ui"
       ],
       "@workspace/ui/*": [
-        "../../../libs/ui/src/*"
+        "../../../libs/ui/src/components/ui/*"
       ],
       "#app": [
         "../../../node_modules/.pnpm/nuxt@3.19.3_@parcel+watcher@2.5.1_@types+node@24.9.1_@vue+compiler-sfc@3.5.22_db0@0.3.4_314c05d23c65ff215935ffbd4f182d57/node_modules/nuxt/dist/app"
@@ -169,7 +169,7 @@
     "../../../node_modules/.pnpm/@nuxt+telemetry@2.6.6_magicast@0.3.5/node_modules/dist/runtime",
     "..",
     "../../../libs/ui",
-    "../../../libs/ui/src",
+    "../../../libs/ui/src/components/ui",
     "../../../node_modules/.pnpm/nuxt@3.19.3_@parcel+watcher@2.5.1_@types+node@24.9.1_@vue+compiler-sfc@3.5.22_db0@0.3.4_314c05d23c65ff215935ffbd4f182d57/node_modules/nuxt/dist/app",
     "../../../node_modules/.pnpm/nuxt@3.19.3_@parcel+watcher@2.5.1_@types+node@24.9.1_@vue+compiler-sfc@3.5.22_db0@0.3.4_314c05d23c65ff215935ffbd4f182d57/node_modules/nuxt/dist/app/compat/vue-demi",
     "../../../node_modules/.pnpm/vue-router@4.6.3_vue@3.5.22_typescript@5.9.3_/node_modules/vue-router/vue-router.node",

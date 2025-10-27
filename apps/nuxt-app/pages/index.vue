@@ -40,5 +40,5 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '../../../libs/ui/src/components/ui/dialog'
+} from '@workspace/ui'
 </script>

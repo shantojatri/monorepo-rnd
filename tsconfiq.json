@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/vue-app"
+    },
+    {
+      "path": "./apps/nuxt-app"
+    },
+    {
+      "path": "./libs/ui"
+    }
+  ]
+}

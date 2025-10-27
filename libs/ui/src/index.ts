@@ -1,2 +1,4 @@
 import './assets/css/tailwind.css'; // optional if you want library default
-export { Button } from './components/ui/button'; 
+export * from './components/ui/dialog'
+export * from './components/ui/button'
+
